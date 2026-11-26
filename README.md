@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # 🎓 ScholarFlow · Modern Student Task & Study Management System
 
 [![Python](https://img.shields.io/badge/Python-3.9%20%7C%203.10%20%7C%203.11%20%7C%203.12%20%7C%203.13-blue.svg?logo=python&logoColor=white)](https://www.python.org/)
@@ -327,3 +328,7 @@ SUMMARY: 70/70 BROWSER TESTS PASSED (100.0%)
 ---
 
 *ScholarFlow · Empowering students to stay organized, beat deadlines, and master their semester.*
+=======
+# scholarflow-student-task-manager
+A Flask-based Student Task and Study Management System.
+>>>>>>> c4800c11af5a8641d66b8c8ff5534b35ae7fbded
