@@ -1,0 +1,62 @@
+# ==============================================================================
+# ScholarFlow · Git Ignore Configuration
+# Protects sensitive student records, secrets, database files, and caches
+# ==============================================================================
+
+# Python Bytecode & Runtime Caches
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Virtual Environments
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# SQLite Databases & Backups (CRITICAL: Never commit real student records)
+*.db
+*.sqlite
+*.sqlite3
+student_tasks.db
+student_tasks_backup*.db
+
+# Environment Secrets
+.env.local
+.env.production
+*.pem
+*.key
+
+# Temporary Test Files & Artifacts
+scratch/temp*
+scratch/hermetic*
+scratch/browser_harness.html
+scratch/mini_*.html
+scratch/test_*.db
+*.log
+.system_generated/
+
+# Operating System Files
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+.DS_Store
+
+# IDE and Editor Directories
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+*.swp
+*.swo
+
+
+scratch/
